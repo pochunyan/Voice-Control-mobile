@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main.WakeUpActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:id="@+id/txv_command"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:textSize="20dp"
+        android:text="您好！ 有事可呼叫 小威小威"/>
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/txv_degree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="角度尚未校正"/>
+
+    <TextView
+        android:id="@+id/txv_usb"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="等待USB傳送"/>
+
+    <WebView
+        android:layout_margin="10dp"
+        android:id="@+id/video"
+        android:visibility="gone"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

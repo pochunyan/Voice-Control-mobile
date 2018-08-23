@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main.WhatsAppActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="傳送訊息"
+        android:textSize="26dp"
+        android:gravity="center"/>
+
+
+    <TextView
+        android:id="@+id/txv_conversation"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:textSize="22dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="對話框.."/>
+
+    <TextView
+        android:id="@+id/txv_answer"
+        android:gravity="center"
+        android:layout_margin="30dp"
+        android:textSize="22dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="回答框.."/>
+
+</LinearLayout>
