@@ -374,6 +374,7 @@ public class WakeUpActivity extends AppCompatActivity implements IStatus, EventL
         wp.send(SpeechConstant.WAKEUP_START, json, null, 0, 0);
     }
 
+
     private void endWakeup(){
         // end using wp
         Log.d(TAG, "喚醒結束");
@@ -443,6 +444,7 @@ public class WakeUpActivity extends AppCompatActivity implements IStatus, EventL
         asr.registerListener(recogEventListener);
     }
 
+
     private void endRecog(){
         // end using asr
         if (asr == null) {
@@ -456,6 +458,7 @@ public class WakeUpActivity extends AppCompatActivity implements IStatus, EventL
         asr = null;
         isInited_recog = false;
     }
+
 
     // callback function of asr
     EventListener recogEventListener = new EventListener() {
